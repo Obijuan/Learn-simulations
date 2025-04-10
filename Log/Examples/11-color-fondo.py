@@ -27,7 +27,7 @@ size = np.array([GROUND_WIDTH, GROUND_HEIGHT, GROUND_DEPTH])
 
 # --- Crear el suelo
 suelo = actor.cube(centers, colors=colors, scales=size)
-suelo.SetPosition(0, -GROUND_HEIGHT/2, 0)
+suelo.SetPosition(GROUND_WIDTH/2, -GROUND_HEIGHT/2, GROUND_DEPTH/2)
 
 # --- Crear el sistema coordenado
 ejes = actor.axes()
