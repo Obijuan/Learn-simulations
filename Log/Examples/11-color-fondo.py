@@ -41,7 +41,7 @@ scene.add(suelo)
 scene.GetActiveCamera().SetPosition(-50, 50, 80)
 
 # --- Cambiar el color del fondo
-scene.background([1, 1, 1])
+scene.SetBackground(1, 1, 1)
 
 # ---- Crear la ventana
 window.show(scene, size=PANTALLA)
