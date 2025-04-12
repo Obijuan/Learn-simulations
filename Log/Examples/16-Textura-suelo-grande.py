@@ -1,6 +1,6 @@
 """
   Dibujar una textura en el plano suelo (plano xz)
-  La textura tiene un tamaño de 1x1
+  La textura tiene un tamaño de 10x10
 """
 
 import numpy as np
@@ -14,7 +14,7 @@ POS_BALDOSA = np.array([1, 0.05, 1])
 
 
 # -- Nombre de fichero con la textura
-# -- Tamaño: 256x256 pixeles
+# -- Tamaño: 2560x2560 pixeles
 FICHERO = 'ground_grid_10x10.jpg'
 
 # -- Tamaño de la ventana
@@ -33,8 +33,7 @@ except FileNotFoundError:
     exit()
 
 # -------- Crear la textura
-# -- El tamaño de la textura es de 256x256, igual que el de la imagen
-# -- en píxeles
+# -- El tamaño de cada cuadrícula de la textura es 256x256
 texture = actor.texture(image)
 
 # -- Como queremos que tenga tamaño de 1x1 lo escalamos
