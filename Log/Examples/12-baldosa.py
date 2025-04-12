@@ -1,6 +1,5 @@
 """
-  Dibujar un suelo en 3D con un sistema de coordenadas
-  Cambiar el color del fondo del escenario
+  Poner una baldosa amarilla de 1x1 en el suelo
 """
 
 import numpy as np
