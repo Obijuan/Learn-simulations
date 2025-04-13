@@ -1,6 +1,5 @@
 """
-  Dibujar una textura en el plano suelo (plano xz)
-  La textura tiene un tamaño de 10x10
+  Animación de la baldosa: se hace rotar alrededor del eje Y
 """
 
 import numpy as np
@@ -10,11 +9,8 @@ from fury import actor, window, io
 ORIGEN = np.array([0, 0, 0])
 YELLOW = np.array([1, 1, 0])
 LIGHTBLUE = np.array([0.9, 0.9, 1])
-POS_BALDOSA = np.array([1, 0.05, 1])
 
-
-# -- Nombre de fichero con la textura
-# -- Tamaño: 2560x2560 pixeles
+# -- Fichero con la textura de la baldosa
 FICHERO = 'ground_grid_10x10.jpg'
 
 # -- Tamaño de la ventana
