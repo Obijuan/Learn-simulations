@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="188.11301mm"
+   height="130.35216mm"
+   viewBox="0 0 188.11301 130.35216"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb, 2024-10-09)"
+   sodipodi:docname="2024-04-14-n02-triangulo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.67793911"
+     inkscape:cx="625.4249"
+     inkscape:cy="337.05092"
+     inkscape:window-width="1866"
+     inkscape:window-height="1011"
+     inkscape:window-x="54"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.8055191,-34.734562)">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.529166;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect10"
+       width="188.11301"
+       height="130.35216"
+       x="7.8055191"
+       y="34.734562" />
+    <rect
+       style="fill:#f9f9f9;stroke:#000000;stroke-width:0.529166;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect9"
+       width="181.08804"
+       height="123.3272"
+       x="11.318003"
+       y="38.637318" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:1.05833;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Triangle)"
+       d="M 80.199447,123.2259 H 138.7044"
+       id="path2" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.69267px;line-height:0.9;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:1.05833;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+       x="146.43439"
+       y="125.50228"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="fill:#000000;stroke:none;stroke-width:1.05833"
+         x="146.43439"
+         y="125.50228">Eje x</tspan></text>
+    <path
+       style="fill:#ff0000;stroke:#008000;stroke-width:1.05833;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Triangle)"
+       d="M 79.67028,122.69673 V 64.191776"
+       id="path3"
+       inkscape:transform-center-y="-29.781645" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.69267px;line-height:0.9;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:1.05833;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+       x="82.214691"
+       y="58.82542"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="fill:#000000;stroke:none;stroke-width:1.05833"
+         x="82.214691"
+         y="58.82542">Eje y</tspan></text>
+    <circle
+       style="fill:#000080;stroke:#000080;stroke-width:1.05833;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path5"
+       cx="79.670273"
+       cy="123.2259"
+       r="2.1465175" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.69267px;line-height:0.9;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:1.05833;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+       x="68.78772"
+       y="136.81691"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="fill:#000000;stroke:none;stroke-width:1.05833"
+         x="68.78772"
+         y="136.81691">Eje z</tspan></text>
+    <path
+       id="path4"
+       style="fill:#999999;stroke:#000000;stroke-width:1.05833;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+       d="M 79.670277,91.269233 V 123.2259 l 31.932273,-0.0244 z"
+       sodipodi:nodetypes="cccc" />
+    <circle
+       style="fill:#000000;stroke:#000000;stroke-width:1.05833;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+       id="circle6"
+       cx="111.60255"
+       cy="123.2015"
+       r="1.0732596" />
+    <circle
+       style="fill:#000000;stroke:#000000;stroke-width:1.05833;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+       id="circle7"
+       cx="79.670273"
+       cy="91.269241"
+       r="1.0732596" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.69267px;line-height:0.9;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:1.05833;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+       x="100.41814"
+       y="133.57484"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.05833"
+         x="100.41814"
+         y="133.57484">P1=(1,0,0)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.69267px;line-height:0.9;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:1.05833;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+       x="83.86013"
+       y="89.420166"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.05833"
+         x="83.86013"
+         y="89.420166">P2=(0,1,0)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.69267px;line-height:0.9;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:1.05833;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+       x="33.867558"
+       y="125.29585"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.05833"
+         x="33.867558"
+         y="125.29585">P3=(0,0,0)</tspan></text>
+  </g>
+</svg>
