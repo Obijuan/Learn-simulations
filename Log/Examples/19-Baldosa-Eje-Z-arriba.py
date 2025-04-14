@@ -1,5 +1,5 @@
 """
-  Situar una baldosa en el plano xz
+  Situar una baldosa en el plano xy
   Hacer zoom y mostrar la escena
 """
 
