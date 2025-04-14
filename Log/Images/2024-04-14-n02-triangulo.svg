@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.67793911"
-     inkscape:cx="625.4249"
-     inkscape:cy="337.05092"
+     inkscape:cx="359.1768"
+     inkscape:cy="238.22198"
      inkscape:window-width="1866"
      inkscape:window-height="1011"
      inkscape:window-x="54"
@@ -170,6 +170,6 @@
          id="tspan9"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.05833"
          x="33.867558"
-         y="125.29585">P3=(0,0,0)</tspan></text>
+         y="125.29585">P0=(0,0,0)</tspan></text>
   </g>
 </svg>
