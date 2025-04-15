@@ -14,12 +14,13 @@ MAGENTA = np.array([1, 0, 1])
 # -- Tamaño de la ventana
 PANTALLA = (600, 400)
 
-# -- Definir todos los puntos de la poli-linea
+# -- Definir los puntos de las dos líneas
 lines = [
     np.array([[0, 0, 0], [1, 1, 0]]),  # -- Linea 1
-    np.array([[0, 1, 0], [1, 2, 0]])  # -- Linea 2
+    np.array([[0, 1, 0], [1, 2, 0]])   # -- Linea 2
 ]
 
+# -- Actor con las líneas
 lineas = actor.line(lines, colors=[ORANGE, ORANGE], linewidth=5)
 
 # -- Obtener los puntos de las lineas
