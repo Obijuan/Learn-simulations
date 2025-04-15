@@ -1,5 +1,5 @@
 """
-  Dibujar una poly-línea de 4 puntos
+  Dibujar dos líneas
 """
 
 import numpy as np
@@ -10,20 +10,27 @@ ORIGIN = np.array([0.0, 0.0, 0.0])
 LIGHTBLUE = np.array([0.5, 0.5, 1])
 YELLOW = np.array([1, 1, 0])
 ORANGE = np.array([1, 0.5, 0])
+MAGENTA = np.array([1, 0, 1])
+# -- Tamaño de la ventana
 PANTALLA = (600, 400)
 
 # -- Definir todos los puntos de la poli-linea
-lines = [np.array([[0, 0, 0], [1, 1, 0], [1, 1, 1], [1, 2, 1]])]
-linea = actor.line(lines, colors=[ORANGE], linewidth=5)
+lines = [
+    np.array([[0, 0, 0], [1, 1, 0]]),  # -- Linea 1
+    np.array([[0, 1, 0], [1, 2, 0]])  # -- Linea 2
+]
 
-# -- Dibujar los puntos de la poli-línea
-puntos = actor.point(lines[0], point_radius=0.05, colors=YELLOW)
+lineas = actor.line(lines, colors=[ORANGE, ORANGE], linewidth=5)
+
+# -- Obtener los puntos de las lineas
+puntos0 = actor.point(lines[0], point_radius=0.05, colors=YELLOW)
+puntos1 = actor.point(lines[1], point_radius=0.05, colors=MAGENTA)
 
 # Crear la escena
 scene = window.Scene()
 scene.add(actor.axes())  # -- Ejes
-scene.add(linea)
-scene.add(puntos)
+scene.add(lineas)
+scene.add(puntos0, puntos1)
 
 # --- Cambiar la posición de la cámara
 cam = scene.GetActiveCamera()
