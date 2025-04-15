@@ -14,7 +14,7 @@ ORANGE = np.array([1, 0.5, 0])
 PANTALLA = (600, 400)
 
 # -- Crear el triángulo a partir del fichero stl
-polydata = io.load_polydata("triangle.stl")
+polydata = io.load_polydata("Experim-01-triangle.stl")
 triangulo = utils.get_actor_from_polydata(polydata)
 
 # -- Establecer el color del triángulo
