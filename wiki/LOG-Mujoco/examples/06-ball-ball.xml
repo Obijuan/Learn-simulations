@@ -1,0 +1,15 @@
+<mujoco model="Ejemplo 6">
+  
+  <worldbody>
+   
+    <!-- En el mundo hay una bola FIJA en el origen -->
+    <geom type="sphere" size="0.2"/> 
+
+    <!-- Bola libre a 2m de la bola del mundo -->
+    <body pos="0 0 2">
+      <geom type="sphere" size="0.2"/>
+      <joint type="free"/>
+    </body>
+    
+  </worldbody>
+</mujoco>
