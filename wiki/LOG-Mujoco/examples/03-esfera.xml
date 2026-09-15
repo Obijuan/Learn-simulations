@@ -1,0 +1,18 @@
+<mujoco model="example">
+  
+
+  <!-- Mundo a simular -->
+  <worldbody>
+   
+    <!-- Definir una geometria: esfera de radio=0.2 -->
+    <!-- Está asociada al "mundo". O mejor dicho, nuestro
+         mundo es una "esfera" situada en el origen 
+         No es un "objeto" independiente. Es el mundo. Y por tanto
+         NO está afectado por la gravedad
+         -->
+    <geom type="sphere" size="0.2"/>
+
+  </worldbody>
+
+  
+</mujoco>
