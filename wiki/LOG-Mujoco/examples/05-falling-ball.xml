@@ -1,0 +1,17 @@
+<!-- Damos un nombre al ejemplo, que se mostrará en la
+     parte superior de la ventana de mujoco studio -->
+<mujoco model="Ejemplo 5">
+  
+  <!-- Mundo a simular -->
+  <worldbody>
+   
+    <!-- Bola en el origen -->
+    <body>
+      <geom type="sphere" size="0.2"/>
+
+      <!-- Es un objeto LIBRE -->
+      <joint type="free"/>
+    </body>
+    
+  </worldbody>
+</mujoco>
