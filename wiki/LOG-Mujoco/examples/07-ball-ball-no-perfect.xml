@@ -1,0 +1,18 @@
+<mujoco model="Ejemplo 7">
+  
+  <worldbody>
+   
+    <!-- En el mundo hay una bola FIJA en el origen -->
+    <geom type="sphere" size="0.2"/> 
+
+    <!-- Bola libre a 2m de la bola del mundo -->
+    <!-- Ya no está alineada en el eje z. La desplazamos un pelín 
+         hacia el lado positivo del eje y. Ahora la bola libre
+         no conseguirá el equilibrio, y terminará cayendo al vacío --> 
+    <body pos="0 0.1 2">
+      <geom type="sphere" size="0.2"/>
+      <joint type="free"/>
+    </body>
+    
+  </worldbody>
+</mujoco>
