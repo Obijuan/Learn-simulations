@@ -1,0 +1,29 @@
+<mujoco model="Ejemplo 9">
+  
+  <!-- Recursos -->
+  <asset>
+
+    <!-- Establecer textura de "ajedrez"-->
+    <texture name="grid" type="2d"
+      builtin="checker" width="512" height="512"/>
+    <!-- Definir un material etiquetado como "satinado" -->
+    <!-- que incluye un "grid" -->
+    <material name="satinado" reflectance=".2" texture="grid"/>
+  </asset>
+
+
+  <worldbody>
+
+    <!-- Suelo del mundo -->
+    <!-- Se le da un aspecto "brillante", como si fuese -->
+    <!-- un azulejo limpio -->
+    <geom type="plane" size="0 0 1" material="satinado"/> 
+
+    <!-- Bola libre  -->
+    <body pos="0 0 2">
+      <geom type="sphere" size="0.2"/>
+      <joint type="free"/>
+    </body>
+    
+  </worldbody>
+</mujoco>
