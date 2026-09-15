@@ -1,0 +1,16 @@
+<mujoco model="Ejemplo 8">
+  
+
+  <worldbody>
+   
+    <!-- Suelo del mundo. Es un plano INFINITO -->
+    <geom type="plane" size="0 0 1"/> 
+
+    <!-- Bola libre  -->
+    <body pos="0 0 2">
+      <geom type="sphere" size="0.2"/>
+      <joint type="free"/>
+    </body>
+    
+  </worldbody>
+</mujoco>
