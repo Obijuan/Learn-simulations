@@ -1,0 +1,18 @@
+<mujoco model="example">
+  
+
+  <!-- Mundo a simular -->
+  <worldbody>
+   
+    <!-- Demtro del mundo, que no tiene ahora ninguna geometría,
+         Metermos un Cuerpo, con geometría esférica 
+         Este cuerpo, por defecto, esta ANCLADO al mundo
+         Y por tanto tantopoco se ve afectado por la gravedad
+    -->
+    <body>
+      <geom type="sphere" size="0.2"/>
+    </body>
+    
+  </worldbody>
+
+</mujoco>
