@@ -9,8 +9,9 @@
       builtin="checker" width="512" height="512"
       rgb1="0 0 .1" rgb2=".3 .3 .3" />
 
+    <!-- Establecer el color del cielo -->
     <texture type="skybox" builtin="gradient" 
-      rgb1="0 0 1" rgb2="0 0 0" 
+      rgb1="0 0 1" rgb2="0 0 1" 
       width="32" height="512"/>
 
     <!-- Definir un material etiquetado como "satinado" -->
@@ -39,7 +40,3 @@
     
   </worldbody>
 </mujoco>
-
-<!-- 
-rgb1=".3 .5 .7" rgb2="0 0 0"
- -->
