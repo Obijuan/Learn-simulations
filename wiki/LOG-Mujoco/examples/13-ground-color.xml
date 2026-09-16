@@ -1,11 +1,14 @@
-<mujoco model="Ejemplo 12">
+<mujoco model="Ejemplo 13">
   
   <!-- Recursos -->
   <asset>
 
-    <!-- Establecer textura de "ajedrez"-->
+    <!-- Establecer textura de "ajedrez",
+         con dos colores: "azul apagado" y "gris" -->
     <texture name="grid" type="2d"
-      builtin="checker" width="512" height="512"/>
+      builtin="checker" width="512" height="512"
+      rgb1="0 0 .1" rgb2=".3 .3 .3" />
+
     <!-- Definir un material etiquetado como "satinado" -->
     <!-- que incluye un "grid" -->
     <material name="azulejos" reflectance=".2" texture="grid"/>
@@ -25,9 +28,11 @@
 
     <!-- Bola libre: De color rojo  -->
     <body pos="0 0 2">
-      <geom type="sphere" size="0.2" rgba="1 0 0 1"/>
+      <geom type="sphere" size="0.2"
+            rgba="1 0 0 1" />
       <joint type="free"/>
     </body>
     
   </worldbody>
 </mujoco>
+
