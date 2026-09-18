@@ -1,0 +1,39 @@
+<!-- Incluir esquema para validar ficheros xml -->
+<mujoco model="Ejemplo 16"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/google-deepmind/mujoco/3.13.0/src/xml/generated/mjcf.xsd"
+        >
+
+  <!-- Recursos -->
+  <asset>
+
+    <!-- Establecer textura de "ajedrez",
+         con dos colores: "azul apagado" y "gris" -->
+    <texture name="grid" type="2d"
+      builtin="checker" width="512" height="512"
+      rgb1="0 0 .1" rgb2=".3 .3 .3" />
+
+    <!-- Definir un material etiquetado como "satinado" -->
+    <!-- que incluye un "grid" -->
+    <material name="azulejos" reflectance=".2" texture="grid"/>
+  </asset>
+
+  <worldbody>
+
+    <!-- Suelo del mundo -->
+    <geom type="plane" size="0 0 1" material="azulejos"/> 
+
+    <!-- Péndulo situado a 2 metros -->
+    <body pos="0 0 2">
+      <joint type="hinge" axis="0 1 0"/>
+
+      <!-- Geometria: una placha con el origen
+           en su parte superior-->
+      <geom type="box" size=".05 .5 0.5"
+          pos="0 0 -0.5"
+          rgba="0 0.6 0 1"/>
+    </body>
+    
+    
+  </worldbody>
+</mujoco>
